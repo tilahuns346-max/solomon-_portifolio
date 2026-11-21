@@ -1,0 +1,148 @@
+import { Project } from "@/types";
+
+export const projects: Project[] = [
+  {
+    id: "student-management-system",
+    title: "Student Management System",
+    description:
+      "A comprehensive institutional portal for tracking students, course registrations, attendance metrics, and academic records with role-based access control.",
+    category: "Full Stack",
+    technologies: ["React.js", "Django", "JavaScript", "REST API", "CSS"],
+    image: "/projects/student-management.svg",
+    githubUrl: "https://github.com/solomontilahun411/student-management-system",
+    liveDemoUrl: "#",
+    featured: true,
+    highlights: [
+      "Role-based authentication for students, teachers, and admins",
+      "Dynamic grade calculation and attendance tracking reports",
+      "Robust RESTful API backend engineered in Django",
+      "Interactive data tables and state management in React",
+    ],
+  },
+  {
+    id: "evangadi-forum",
+    title: "Evangadi Tech Community Forum",
+    description:
+      "A full-stack collaborative Q&A platform inspired by StackOverflow where developers can ask technical questions, post verified solutions, and engage in threaded discussions.",
+    category: "Full Stack",
+    technologies: ["React.js", "Node.js", "Express.js", "MySQL", "JWT"],
+    image: "/projects/evangadi-forum.png",
+    githubUrl: "https://github.com/solomontilahun411/evangadi-forum",
+    liveDemoUrl: "#",
+    featured: true,
+    highlights: [
+      "Custom JWT authentication and password hashing with bcrypt",
+      "Relational MySQL database schema with foreign-key constraints",
+      "Interactive voting and question filtering system",
+      "Responsive UI designed for both mobile and desktop screens",
+    ],
+  },
+  {
+    id: "smart-ai-chatbot",
+    title: "AI Smart Chatbot",
+    description:
+      "An intelligent conversational assistant featuring a responsive chat interface, context-aware prompt replies, and seamless communication with a Django backend.",
+    category: "Full Stack",
+    technologies: ["React.js", "Django", "CSS", "Python", "REST API"],
+    image: "/projects/chatbot.svg",
+    githubUrl: "https://github.com/solomontilahun411/chatbot-react-django",
+    liveDemoUrl: "#",
+    featured: true,
+    highlights: [
+      "Real-time message dispatch and message history retention",
+      "Clean conversational UI with speech-bubble animations",
+      "Django view handlers for processing NLP query payloads",
+      "Configurable knowledge base and error handling states",
+    ],
+  },
+  {
+    id: "amazon-clone",
+    title: "Amazon E-Commerce Clone",
+    description:
+      "A feature-rich full-stack e-commerce marketplace featuring product catalog browsing, cart basket state persistence, user orders, and checkout workflow.",
+    category: "Full Stack",
+    technologies: ["React.js", "Node.js", "MySQL", "CSS", "Express.js"],
+    image: "/projects/amazon-clone.jpg",
+    githubUrl: "https://github.com/solomontilahun411/amazon-clone",
+    liveDemoUrl: "#",
+    featured: true,
+    highlights: [
+      "Global shopping cart state with live total price calculations",
+      "Order history tracking backed by structured MySQL tables",
+      "Responsive navigation drawer and search filter bar",
+      "Clean modular component architecture",
+    ],
+  },
+  {
+    id: "netflix-clone",
+    title: "Netflix Streaming Clone",
+    description:
+      "A high-fidelity Netflix web application featuring movie trailer playback previews, dynamic categorization rows, and responsive media banners.",
+    category: "Frontend",
+    technologies: ["React.js", "Node.js", "MySQL", "CSS", "REST API"],
+    image: "/projects/netflix-clone.jpg",
+    githubUrl: "https://github.com/solomontilahun411/netflix-clone",
+    liveDemoUrl: "#",
+    featured: false,
+    highlights: [
+      "Smooth horizontal scrolling movie category carousels",
+      "Video trailer pop-up integration on poster hover",
+      "Optimized poster image delivery and loading states",
+      "Faithful reproduction of Netflix dark aesthetic",
+    ],
+  },
+  {
+    id: "cafe-management-system",
+    title: "Cafe Management & POS System",
+    description:
+      "A point-of-sale and kitchen inventory system for managing customer orders, menu pricing, table reservations, and daily revenue receipts.",
+    category: "Full Stack",
+    technologies: ["React.js", "Django", "Python", "CSS", "REST API"],
+    image: "/projects/cafe-management.svg",
+    githubUrl: "https://github.com/solomontilahun411/cafe-management-system",
+    liveDemoUrl: "#",
+    featured: false,
+    highlights: [
+      "Real-time kitchen order ticket (KOT) status pipeline",
+      "Automated bill calculation including tax and discounts",
+      "Django models for menu items, categories, and invoices",
+      "Intuitive POS touchscreen-friendly user interface",
+    ],
+  },
+  {
+    id: "weather-application",
+    title: "Live Weather Forecast Application",
+    description:
+      "A dynamic weather forecast web app providing real-time meteorological metrics, multi-day predictions, wind speed, pressure, and geolocation lookup.",
+    category: "Frontend",
+    technologies: ["React.js", "JavaScript", "CSS3", "REST API"],
+    image: "/projects/weather-app.png",
+    githubUrl: "https://github.com/solomontilahun411/weather-app",
+    liveDemoUrl: "#",
+    featured: false,
+    highlights: [
+      "Live weather data fetching via asynchronous OpenWeather API",
+      "Dynamic weather graphics adapting to daytime and conditions",
+      "Automatic geolocation detection with fallback search",
+      "Ultra-responsive layout across all device viewports",
+    ],
+  },
+  {
+    id: "personal-portfolio-website",
+    title: "Personal Portfolio Website",
+    description:
+      "A modern, high-performance developer portfolio built with Next.js App Router, Tailwind CSS, TypeScript, and Framer Motion animations.",
+    category: "Frontend",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    image: "/projects/portfolio.svg",
+    githubUrl: "https://github.com/solomontilahun411/solomon-portfolio",
+    liveDemoUrl: "#",
+    featured: true,
+    highlights: [
+      "Next.js App Router with React Server Components & Client transitions",
+      "Dark mode as default with neon green/cyan glow styling",
+      "Accessible contact form with Zod and React Hook Form validation",
+      "Production-ready SEO metadata and OpenGraph support",
+    ],
+  },
+];

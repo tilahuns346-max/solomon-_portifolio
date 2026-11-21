@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="forumBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#141a29"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#forumBg)"/>
+  <rect x="30" y="30" width="740" height="40" rx="8" fill="#1e293b" />
+  <circle cx="55" cy="50" r="6" fill="#ef4444" />
+  <circle cx="75" cy="50" r="6" fill="#eab308" />
+  <circle cx="95" cy="50" r="6" fill="#10b981" />
+  <text x="400" y="54" fill="#94a3b8" font-family="system-ui" font-size="12" text-anchor="middle">Evangadi Tech Discussion Forum • React, Node.js &amp; MySQL</text>
+
+  <!-- Community Banner -->
+  <g transform="translate(60, 95)">
+    <rect width="680" height="65" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="38" fill="#f8fafc" font-family="system-ui" font-size="18" font-weight="bold">Questions &amp; Answers Community</text>
+    <rect x="520" y="15" width="135" height="36" rx="6" fill="url(#orangeGrad)"/>
+    <text x="587" y="38" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="bold" text-anchor="middle">Ask Question</text>
+  </g>
+
+  <!-- Question Item 1 -->
+  <g transform="translate(60, 180)">
+    <rect width="680" height="80" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="35" cy="40" r="18" fill="#3b82f6" opacity="0.3"/>
+    <text x="35" y="45" fill="#60a5fa" font-family="system-ui" font-size="12" font-weight="bold" text-anchor="middle">ST</text>
+    <text x="70" y="34" fill="#f8fafc" font-family="system-ui" font-size="15" font-weight="bold">How to optimize MySQL JOIN queries with composite indexes?</text>
+    <text x="70" y="56" fill="#94a3b8" font-family="system-ui" font-size="12">Asked by Solomon Tilahun • 18 answers • 142 views</text>
+    <rect x="580" y="26" width="75" height="26" rx="13" fill="#042f2e" stroke="#10b981" stroke-width="1"/>
+    <text x="617" y="43" fill="#10b981" font-family="system-ui" font-size="11" font-weight="bold" text-anchor="middle">Solved ✓</text>
+  </g>
+
+  <!-- Question Item 2 -->
+  <g transform="translate(60, 275)">
+    <rect width="680" height="80" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="35" cy="40" r="18" fill="#a855f7" opacity="0.3"/>
+    <text x="35" y="45" fill="#c084fc" font-family="system-ui" font-size="12" font-weight="bold" text-anchor="middle">BK</text>
+    <text x="70" y="34" fill="#f8fafc" font-family="system-ui" font-size="15" font-weight="bold">JWT Token expiration and Refresh Token rotation in Express</text>
+    <text x="70" y="56" fill="#94a3b8" font-family="system-ui" font-size="12">Asked by Bekele • 9 answers • 89 views</text>
+    <rect x="580" y="26" width="75" height="26" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+    <text x="617" y="43" fill="#818cf8" font-family="system-ui" font-size="11" font-weight="bold" text-anchor="middle">5 Active</text>
+  </g>
+
+  <!-- Question Item 3 -->
+  <g transform="translate(60, 370)">
+    <rect width="680" height="80" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="35" cy="40" r="18" fill="#10b981" opacity="0.3"/>
+    <text x="35" y="45" fill="#34d399" font-family="system-ui" font-size="12" font-weight="bold" text-anchor="middle">AB</text>
+    <text x="70" y="34" fill="#f8fafc" font-family="system-ui" font-size="15" font-weight="bold">Best practices for state management in React 18: Context vs Redux</text>
+    <text x="70" y="56" fill="#94a3b8" font-family="system-ui" font-size="12">Asked by Abebe • 23 answers • 310 views</text>
+    <rect x="580" y="26" width="75" height="26" rx="13" fill="#042f2e" stroke="#10b981" stroke-width="1"/>
+    <text x="617" y="43" fill="#10b981" font-family="system-ui" font-size="11" font-weight="bold" text-anchor="middle">Solved ✓</text>
+  </g>
+</svg>

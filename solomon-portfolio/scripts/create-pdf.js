@@ -1,0 +1,126 @@
+// Simple script to generate a clean, valid PDF file
+const fs = require('fs');
+const path = require('path');
+
+const content = `%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 880
+>>
+stream
+BT
+/F2 22 Tf
+50 740 Td
+(SOLOMON TILAHUN) Tj
+0 -24 Td
+/F1 12 Tf
+(Software Engineering Student | Full-Stack Developer) Tj
+0 -20 Td
+(Email: solomontilahun411@gmail.com | Telegram: @sol21mariam | GitHub: solomontilahun411) Tj
+0 -30 Td
+/F2 14 Tf
+(EDUCATION) Tj
+0 -18 Td
+/F1 11 Tf
+(Wollo University - BSc in Software Engineering (Expected 2026)) Tj
+0 -15 Td
+(Relevant Coursework: Data Structures, Web Development, Databases, Software Architecture) Tj
+0 -30 Td
+/F2 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -18 Td
+/F1 11 Tf
+(Frontend: Next.js, React.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS) Tj
+0 -15 Td
+(Backend: Node.js, Express.js, Python, Django, RESTful APIs) Tj
+0 -15 Td
+(Databases: PostgreSQL, MySQL, SQLite) Tj
+0 -15 Td
+(Tools: Git, GitHub, VS Code, Postman, Vercel) Tj
+0 -30 Td
+/F2 14 Tf
+(FEATURED PROJECTS) Tj
+0 -18 Td
+/F1 11 Tf
+(Student Management System - React & Django full-stack institutional portal) Tj
+0 -15 Td
+(Evangadi Forum - React, Node.js & MySQL collaborative Q&A platform) Tj
+0 -15 Td
+(Smart AI Chatbot - React, Django & CSS responsive conversational interface) Tj
+0 -15 Td
+(Amazon & Netflix Clones - Full-stack React, Node.js, MySQL & Stripe) Tj
+0 -15 Td
+(Weather App & Cafe Management System - React, Django & REST APIs) Tj
+0 -30 Td
+/F2 14 Tf
+(ACHIEVEMENTS & EXCELLENCE) Tj
+0 -18 Td
+/F1 11 Tf
+(Consistent academic achievements in Software Engineering at Wollo University) Tj
+0 -15 Td
+(Active open-source code contributor and team collaboration lead) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000001201 00000 n 
+0000001272 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+1348
+%%EOF`;
+
+const destPath = path.join(__dirname, '..', 'public', 'cv-solomon-tilahun.pdf');
+fs.writeFileSync(destPath, content, 'binary');
+console.log('PDF written successfully to', destPath);

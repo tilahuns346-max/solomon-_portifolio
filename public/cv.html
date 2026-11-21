@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae - Solomon Tilahun</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #1e293b;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border-radius: 8px;
+    }
+    header {
+      border-bottom: 2px solid #06b6d4;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+    }
+    h1 { margin: 0; color: #0f172a; font-size: 28px; }
+    h2 { color: #0891b2; font-size: 18px; margin-top: 5px; }
+    .contact-info {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #64748b;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0f172a;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 5px;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .item { margin-bottom: 14px; }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      color: #334155;
+    }
+    .item-sub { color: #0891b2; font-weight: 500; font-size: 14px; }
+    ul { margin: 6px 0 0 20px; padding: 0; }
+    li { font-size: 14px; color: #475569; margin-bottom: 4px; }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      font-size: 14px;
+    }
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #0891b2;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    @media print {
+      body { box-shadow: none; margin: 0; padding: 15px; }
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+
+  <header>
+    <h1>SOLOMON TILAHUN</h1>
+    <h2>Software Engineering Student | Full-Stack Developer</h2>
+    <div class="contact-info">
+      <span>📧 solomontilahun411@gmail.com</span>
+      <span>📱 Telegram: @sol21mariam</span>
+      <span>💻 GitHub: github.com/solomontilahun411</span>
+      <span>📍 Wollo, Ethiopia</span>
+    </div>
+  </header>
+
+  <div>
+    <div class="section-title">Professional Summary</div>
+    <p style="font-size: 14px; color: #475569; margin: 0;">
+      Energetic and dedicated Software Engineering student at Wollo University with hands-on proficiency in building modern full-stack web applications. Experienced in developing responsive user interfaces with Next.js, React, and Tailwind CSS, coupled with robust server architectures powered by Node.js, Express, Django, and relational databases (PostgreSQL, MySQL, SQLite). Passionate about clean code, scalable architecture, and continuous learning.
+    </p>
+  </div>
+
+  <div>
+    <div class="section-title">Education</div>
+    <div class="item">
+      <div class="item-header">
+        <span>B.Sc. in Software Engineering</span>
+        <span>Expected Grad: 2026</span>
+      </div>
+      <div class="item-sub">Wollo University, Kombolcha Institute of Technology (KIOT)</div>
+      <ul>
+        <li>Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Software Architecture &amp; Design, Operating Systems, Computer Networks.</li>
+        <li>Active participant in student engineering associations, coding challenges, and peer-to-peer technical mentorship.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div><strong>Frontend:</strong> React.js, Next.js (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS</div>
+      <div><strong>Backend:</strong> Python, Django, Node.js, Express.js, RESTful APIs</div>
+      <div><strong>Databases:</strong> PostgreSQL, MySQL, SQLite</div>
+      <div><strong>Tools &amp; DevOps:</strong> Git, GitHub, VS Code, Postman, Vercel, npm</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-title">Key Projects</div>
+    <div class="item">
+      <div class="item-header">
+        <span>Student Management System</span>
+        <span>React.js, Django, REST API</span>
+      </div>
+      <ul>
+        <li>Engineered a full-featured institutional portal for tracking students, attendance, grades, and faculty courses.</li>
+        <li>Implemented secure authentication, CRUD endpoints, and responsive administrative dashboards.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="item-header">
+        <span>Evangadi Forum Clone</span>
+        <span>React.js, Node.js, Express, MySQL</span>
+      </div>
+      <ul>
+        <li>Built an interactive Q&amp;A platform with user registration, authentication (JWT), questions feed, and threaded answers.</li>
+        <li>Designed normalized relational database schema in MySQL with optimized queries.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="item-header">
+        <span>AI Smart Chatbot</span>
+        <span>React.js, Django, CSS</span>
+      </div>
+      <ul>
+        <li>Designed conversational chat interface with real-time prompt feedback, message streaming, and state management.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="item-header">
+        <span>E-Commerce Platforms (Amazon &amp; Netflix Clones)</span>
+        <span>React, Node.js, MySQL, Stripe API</span>
+      </div>
+      <ul>
+        <li>Created feature-rich web applications featuring cart state management, product filtering, payment flow, and media discovery.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-title">Achievements &amp; Activities</div>
+    <ul>
+      <li>Consistent academic excellence in Software Engineering department at Wollo University.</li>
+      <li>Contributed regularly to GitHub open source learning repositories and community code projects.</li>
+      <li>Completed specialized certificates in modern web development and full-stack engineering.</li>
+    </ul>
+  </div>
+</body>
+</html>
